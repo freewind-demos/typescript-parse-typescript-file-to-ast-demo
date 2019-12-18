@@ -1,18 +1,11 @@
-TypeScript Hello World Demo
+TypeScript Parse to AST Demo
 ===========================
+
+Typescript似乎没有办法直接把一段代码变成AST，不过有一些变通的办法
+
+https://stackoverflow.com/questions/20187928/typescript-get-syntax-tree
 
 ```
 npm install
 npm run demo
 ```
-
-Note:
-
-`esModuleInterop` is recommended to set to `true`,
-since we can have consistent importing syntax with babel,
-always use:
-
-```
-import some from 'some'
-```
-
